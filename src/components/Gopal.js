@@ -1,7 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Gopal = () => {
-    return <h5>Developed By <a href="https://github.com/GopalDas123" target="_blank">Gopal Das</a> </h5>
-}
+  return (
+    <h5> Developed By <a href="https://github.com/GopalDas123">Gopal Das</a></h5>
+  );
+};
 
-export default Gopal
+export default Gopal;
