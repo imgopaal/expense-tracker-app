@@ -4,6 +4,7 @@ import { Balance } from './components/Balance';
 import { IncomeExpenses } from './components/IncomeExpenses';
 import { TransactionList } from './components/TransactionList';
 import { AddTransaction } from './components/AddTransaction';
+import Gopal from './components/Gopal';
 
 import { GlobalProvider } from './context/GlobalState';
 
@@ -18,6 +19,7 @@ function App() {
         <IncomeExpenses />
         <TransactionList />
         <AddTransaction />
+        <Gopal />
       </div>
     </GlobalProvider>
   );
